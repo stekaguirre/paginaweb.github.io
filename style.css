@@ -2,7 +2,7 @@
 /*ESTE ES EL CSS HOME*/
 
 .bodyHome{
-    background-color: rgb(15, 19, 235);
+    background: linear-gradient(white,black);
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -12,21 +12,21 @@
     width: 1110px;
     margin: 5px 0px 00px 70px;
     padding: 20px;
-    background-color: white;
+    /*background-color: white;*/
     
 }
 .sectionCajaHome{
     width: 1040px;
     margin: 0px 0px 0px 10px;
     position: relative;
-    background-color: rgb(214, 200, 73);
+    /*background-color: rgb(214, 200, 73);*/
 }
 .listaSectionCajaHome{
     width: 640px;
-    background-color: aqua;
+    /*background-color: aqua;*/
 }
 nav .cajaLiHome{
-    color: rgb(255, 60, 0);
+    color: rgb(235, 21, 21);
 }
 
 
@@ -36,22 +36,23 @@ nav .cajaLiHome{
     position: relative;
     margin: 5px 0px 5px 4%;
     padding: 20px;
-    background: linear-gradient(white,black);
+    /*background: linear-gradient(white,black);*/
 
 }
 .sectionPrincipalHome{
     width: 1040px;
     position: relative;
     margin: 5px 0 0 0 ;
-    background-color: rgb(224, 72, 26);
+    /*background-color: rgb(224, 72, 26);*/
     padding: 5px 50px 5px 5px;
 }
 .tituloPrincipalHome{
-    background-color: rgb(231, 44, 191);
+    /*background-color: rgb(231, 44, 191);*/
     text-align: center;
     font-size: 2em;
     margin: 0 0 1em;
     clear: left;
+    color: red;
 }
 .sectionPrincipalHome p{
     margin: 0 0 1em;
@@ -65,7 +66,7 @@ nav .cajaLiHome{
 .proximamente{
     width: 120px;
     float: left;
-    margin: 0 20px 20px 0;
+    margin: 50px 20px 20px 0;
     font-size: 2em;
 }
 .proximamente p{
@@ -76,19 +77,19 @@ nav .cajaLiHome{
     width: 1080px;
     position: relative;
     margin: 5px 0 0 0;
-    background-color: rgb(42, 165, 79);
+    /*background-color: rgb(42, 165, 79);*/
     padding: 5px;
 }
 .contenidoDiferenciales{
     width: 1040px;
     margin: 5px auto;
-    background-color: aqua;
+    /*background-color: aqua;*/
 }
 .listaDiferenciales {
     width: 30%;
     display: inline-block;
     vertical-align: top;
-    background-color: blueviolet;
+    /*background-color: blueviolet;*/
     padding: 18px;
     margin: 0px 5px 0 0px;
   
@@ -120,7 +121,7 @@ nav .cajaLiHome{
     width: 560px;
     padding: 5px;
     margin: 5px 0 5px 20%;
-    background-color: rgb(13, 230, 230);
+    /*background-color: rgb(13, 230, 230);*/
 }
 
 
@@ -130,12 +131,12 @@ nav .cajaLiHome{
     margin: 5px 0px 5px 70px;
     font-size: 10px;
     text-align: center;
-    background-color: blueviolet;
+    /*background-color: blueviolet;*/
     color: white;
 }
 .footerHome ul{
     width: 850px;
-    background-color: rgb(201, 108, 55);
+    /*background-color: rgb(201, 108, 55);*/
     padding: 10px;
     margin: 00px 0px 0px 110px;
 }
@@ -149,7 +150,7 @@ nav .cajaLiHome{
 }
 @media screen and (max-width:480px){
     .bodyHome{
-        background: red;
+        background: linear-gradient(white,black);
     }
     .sectionCajaHome h1{
         text-align: center;
