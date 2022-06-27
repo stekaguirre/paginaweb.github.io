@@ -1,0 +1,483 @@
+
+/*ESTE ES EL CSS HOME*/
+
+.bodyHome{
+    background-color: rgb(15, 19, 235);
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.headerHome{
+    width: 1110px;
+    margin: 5px 0px 00px 70px;
+    padding: 20px;
+    background-color: white;
+    
+}
+.sectionCajaHome{
+    width: 1040px;
+    margin: 0px 0px 0px 10px;
+    position: relative;
+    background-color: rgb(214, 200, 73);
+}
+.listaSectionCajaHome{
+    width: 640px;
+    background-color: aqua;
+}
+nav .cajaLiHome{
+    color: rgb(255, 60, 0);
+}
+
+
+
+.mainHome{
+    width: 1140px;
+    position: relative;
+    margin: 5px 0px 5px 4%;
+    padding: 20px;
+    background: linear-gradient(white,black);
+
+}
+.sectionPrincipalHome{
+    width: 1040px;
+    position: relative;
+    margin: 5px 0 0 0 ;
+    background-color: rgb(224, 72, 26);
+    padding: 5px 50px 5px 5px;
+}
+.tituloPrincipalHome{
+    background-color: rgb(231, 44, 191);
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+.sectionPrincipalHome p{
+    margin: 0 0 1em;
+}
+.sectionPrincipalHome strong{
+    font-weight: bold;
+}
+.sectionPrincipalHome em{
+    font-style: italic;
+}
+.proximamente{
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+    font-size: 2em;
+}
+.proximamente p{
+    margin: 0 0 1em;
+ 
+}
+.sectionDiferencialesHome{
+    width: 1080px;
+    position: relative;
+    margin: 5px 0 0 0;
+    background-color: rgb(42, 165, 79);
+    padding: 5px;
+}
+.contenidoDiferenciales{
+    width: 1040px;
+    margin: 5px auto;
+    background-color: aqua;
+}
+.listaDiferenciales {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    background-color: blueviolet;
+    padding: 18px;
+    margin: 0px 5px 0 0px;
+  
+}
+.itemsListaDiferenciales{
+    line-height: 1.5;
+    margin: 20px;
+    background-color: white;
+}
+.itemsListaDiferenciales:before{
+    content: "✸";
+}
+.itemsListaDiferenciales:first-child{/*pintar el primer item*/
+    font-weight: bold;
+}
+.itemsListaDiferenciales:last-child{/*pintar el ultimo item*/
+    color: rgb(228, 15, 15);
+}
+.itemsListaDiferenciales:nth-child(2){/*pintar el item por su numero de lista*/
+    color: rgb(34, 15, 209);
+}
+.imagenDiferenciales2{
+    width: 30%;
+}
+.imagenDiferenciales3{
+    width:35% ;
+}
+.sectionVideoHome{
+    width: 560px;
+    padding: 5px;
+    margin: 5px 0 5px 20%;
+    background-color: rgb(13, 230, 230);
+}
+
+
+.footerHome{
+    width: 1110px;
+    padding: 5px;
+    margin: 5px 0px 5px 70px;
+    font-size: 10px;
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+}
+.footerHome ul{
+    width: 850px;
+    background-color: rgb(201, 108, 55);
+    padding: 10px;
+    margin: 00px 0px 0px 110px;
+}
+.footerHome li{
+    display: inline-block;
+}
+#pie{
+    width: 80%;
+    height: 350px;
+    padding-left: 10%;
+}
+@media screen and (max-width:480px){
+    .bodyHome{
+        background: red;
+    }
+    .sectionCajaHome h1{
+        text-align: center;
+    }
+    .sectionCajaHome nav{
+        position: static;
+    }
+    .itemsListaSectionCajaHome{
+        width: 100%;
+        display: inline-grid;
+    }
+    
+   
+    .headerHome{
+        margin: 0%;
+    }
+    
+    .headerHome,.sectionCajaHome,.mainHome,.sectionPrincipalHome,.sectionDiferencialesHome,.sectionVideoHome,.sectionVideoHome{
+        width: auto;
+    }
+    .banerLasTres,.video,.contenidoDiferenciales,.listaDiferenciales,.fondo,.sectionRedes,.footerHome,.footerHome ul,.listaSectionCajaHome{
+        width: 100%;
+    }
+    .listaDiferenciales{
+        width: 80%;
+    }
+    .imagenDiferenciales2,.imagenDiferenciales3{
+        width: 40%;
+
+    }
+    .footerHome,.sectionRedes,.footerHome ul{
+        margin-left: 10px;
+    }
+    .sectionVideoHome{
+        margin-left: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ESTE ES EL CSS PRODUCTOS*/
+
+.bodyProductos{
+    background: linear-gradient(white ,black 80%);
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.headerProductos{
+    width: 1110px;
+    margin: 5px 0px 00px 70px;
+    padding: 40px;
+    background-color: white;
+}
+.sectionCajaProductos{
+    width: 1040px;
+    margin: 0px 0px 0px 10px;
+    position: relative;
+    background-color: rgb(230, 15, 62);
+}
+nav  .cajaLiProductos{
+    color: red;
+}
+
+.mainProductos{
+    width: 1140px;
+    position: relative;
+    margin: 5px 0px 5px 4%;
+    padding: 10px 5px 2px 80px;
+    background: linear-gradient(white,black);
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 60px;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 25px;
+   
+}
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+    background: rgb(217, 217, 223);
+    border-color:black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 20px 20px 20px 20px;
+    margin: 0px 0px 0px 0px;
+    
+}
+nav a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+
+
+.sectionProductos{
+    width: 1040px;
+    margin: 10px 0 10px 0px;
+    background-color: rgb(55, 46, 170);
+    padding: 5px;
+}
+.sectionProductos li{
+    display: inline-block;
+    text-align: center;
+    width: 45%;
+    margin: 2% 2%;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    border-color:black;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 20px;
+}
+.sectionProductos li:hover{
+    border-color: blue;
+}
+.sectionProductos li:hover h2{
+    font-size: 34px;
+}
+.sectionProductos li:active{
+    border-color: white;
+}
+.sectionProductos h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0px 0px 40px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.productosDescripcion{
+    font-size: 22px;
+    font-weight: bold;
+}
+.productosPrecio{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.footerProductos{
+    width: 1110px;
+    padding: 5px;
+    margin: 5px 0px 5px 70px;
+    font-size: 10px;
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+}
+.footerProductos ul{
+    width: 850px;
+    background-color: rgb(201, 108, 55);
+    padding: 10px;
+    margin: 00px 0px 0px 110px;
+}
+.footerProductos li{
+    display: inline-block;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*contacto*/
+.bodyContacto{
+    background: linear-gradient(white,black);
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.headerContacto{
+    width: 1110px;
+    margin: 10px 0px 00px 70px;
+    padding: 70px;
+    background-color: rgb(64, 51, 185);
+}
+.sectionCajaContacto{
+    width: 1040px;
+    margin: 0px 0px 0px 10px;
+    position: relative;
+    background-color: rgb(230, 15, 62);
+}
+nav  .cajaLiContacto{
+    color: red;
+}
+
+
+.mainContacto{
+    width: 1140px;
+    position: relative;
+    margin: 5px 0px 10px 9%;
+    padding: 5px;
+    background-color: white;
+}
+form{
+    padding: 5px;
+    margin: 10px 0px 20px 0;
+    background-color: blue;
+}
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.inputPadron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 20px;
+    width: 50%;
+}
+.checkbox{
+    margin: 20px 0;
+}
+.enviar{
+    width: 20%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: blue;
+    border: none;
+    border-radius: 20px;
+    transition: 1s all;
+    cursor: pointer;
+
+}
+.enviar:hover{
+    background: black;
+    transform: scale(1.2) rotate(2deg);
+}
+table{
+    margin: 20px 20px 0 40%;
+}
+thead{
+    background: blue;
+    color: white;
+    font-weight: bold;
+}
+td,th{
+    border: 1px solid black;
+    padding: 15px 15px 15px 15px;
+}
+
+
+.footerContacto{
+    width: 1110px;
+    padding: 5px;
+    margin: 10px 0px 10px 10%;
+    font-size: 10px;
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+}
+.footerContacto ul{
+    width: 850px;
+    background-color: rgb(201, 108, 55);
+    padding: 10px;
+    margin: 00px 0px 0px 110px;
+}
+.footerContacto li{
+    display: inline-block;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*NETFLIX*/
+.bodyNetflix{
+    background: url(imagenesEditadas/netflix.jpg);
+    background-size: cover;
+}
+
+
+
+.bodyDisney{
+    background: url(imagenesEditadas/disney.jpg);
+    background-size: cover;
+}
+
+
+.bodyAmazon{
+    background: url(imagenesEditadas/amazon.jpg);
+    background-size: cover;
+}
+
+.bodyHbo{
+    background: url(imagenesEditadas/hbo.jpg);
+    background-size: cover;
+}
